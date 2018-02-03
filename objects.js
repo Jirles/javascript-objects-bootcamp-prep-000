@@ -6,5 +6,8 @@ function updatePlaylist(obj, key, value){
 
 function removeFromPlaylist(obj, key){
   delete obj.key
-  return obj
+  if (true): 
+    return obj
+  else:
+    console.log('delete done fucked up')
 }
